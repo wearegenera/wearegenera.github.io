@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/index.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-03-02T19:49:26+01:00</updated><id>http://localhost:4000/index.xml</id><entry><title type="html">MultiCarousel Post</title><link href="http://localhost:4000/posts/multi-carousel-post" rel="alternate" type="text/html" title="MultiCarousel Post" /><published>2025-01-15T05:37:13+01:00</published><updated>2025-01-15T05:37:13+01:00</updated><id>http://localhost:4000/posts/multi-carousel-post</id><content type="html" xml:base="http://localhost:4000/posts/multi-carousel-post"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+<div class="space40"></div>
+
+{% include posts/carousel-layout.html images=page.gallery id="test-carousel" %}
+
+<div class="space40"></div>
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.]]></content><author><name>Tortoiz Themes</name></author><category term="travel" /><category term="travel" /><category term="photography" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry><entry><title type="html">Post with Carousel on main Image</title><link href="http://localhost:4000/posts/post-with-carousel" rel="alternate" type="text/html" title="Post with Carousel on main Image" /><published>2025-01-14T05:37:13+01:00</published><updated>2025-01-14T05:37:13+01:00</updated><id>http://localhost:4000/posts/Post-with-Carousel</id><content type="html" xml:base="http://localhost:4000/posts/post-with-carousel"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+### Gallery of project images
+
+<div class="space40"></div>
+
+{% include posts/gallery-layout.html images=page.gallery %}
+
+<div class="space40"></div>
+
+<div class="space40"></div>
+
+{% include posts/carousel-layout.html images=page.gallery id="test-carousel" %}
+
+<div class="space40"></div>
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+
+<div class="space20"></div>
+<blockquote class="icon">
+<p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit. Cras mattis consectetur purus.</p>
+<footer class="blockquote-footer">Very important person</footer>
+</blockquote>
+<div class="space20"></div>
+
+#### Risus sociis urna elementum ultricies justo quisque
+
+Mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor.
+
+#### Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium
+
+##### H5 Video Heading 
+{% include utilities/video.html id= page.post_video.video.id  provider= page.post_video.video.provider %}
+<div class="space40"></div>
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium]]></content><author><name>Tortoiz Themes</name></author><category term="wedding" /><category term="technology" /><category term="education" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry><entry><title type="html">Essential Travel Photography: Capturing Moments Around the Globe</title><link href="http://localhost:4000/posts/travel-photography-guide" rel="alternate" type="text/html" title="Essential Travel Photography: Capturing Moments Around the Globe" /><published>2025-01-14T05:37:13+01:00</published><updated>2025-01-14T05:37:13+01:00</updated><id>http://localhost:4000/posts/travel-photography-essentials</id><content type="html" xml:base="http://localhost:4000/posts/travel-photography-guide"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+## The Art of Travel Photography
+
+Travel photography is more than just capturing beautiful landscapes or iconic landmarks. It's about telling stories, preserving memories, and sharing unique perspectives from around the world. In this guide, we'll explore the essential techniques and mindset that transform ordinary travel snapshots into compelling visual narratives.
+
+### Capturing the Essence of Travel
+
+Photography is about more than just technical skills. It's about:
+- Emotional connection
+- Cultural understanding
+- Storytelling through visuals
+
+### Gallery of Moments
+
+Below is a curated collection of moments that capture the diversity and beauty of our world:
+
+<div class="space40"></div>
+
+{% include posts/gallery-layout.html images=page.gallery %}
+
+<div class="space40"></div>
+
+### Key Photography Techniques
+
+1. **Composition**
+   - Rule of thirds
+   - Leading lines
+   - Framing
+
+2. **Lighting**
+   - Golden hour
+   - Blue hour
+   - Natural vs. artificial light
+
+3. **Equipment**
+   - Lightweight mirrorless cameras
+   - Versatile lenses
+   - Portable accessories
+
+## Final Thoughts
+
+Travel photography is a journey of discovery - both of the world around us and of ourselves. Each photograph is a story waiting to be told, a moment frozen in time.
+
+**Pro Tip**: The best camera is the one you have with you. Never stop exploring!]]></content><author><name>Sarah Wanderlust</name></author><category term="photography" /><category term="travel" /><category term="travel tips" /><category term="photography" /><category term="adventure" /><summary type="html"><![CDATA[A comprehensive guide to mastering travel photography techniques and storytelling]]></summary></entry><entry><title type="html">Mastering Markdown: A Comprehensive Guide</title><link href="http://localhost:4000/posts/markdown-advanced-guide" rel="alternate" type="text/html" title="Mastering Markdown: A Comprehensive Guide" /><published>2025-01-14T05:00:00+01:00</published><updated>2025-01-14T05:00:00+01:00</updated><id>http://localhost:4000/posts/markdown-advanced-guide</id><content type="html" xml:base="http://localhost:4000/posts/markdown-advanced-guide"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+## Introduction to Advanced Markdown
+
+Markdown is more than just simple text formatting. In this comprehensive guide, we'll explore the depths of markdown capabilities, especially within the Jekyll ecosystem.
+
+### Basic Formatting
+
+Let's start with some fundamental markdown elements:
+
+- **Bold Text**: Use double asterisks
+- *Italic Text*: Use single asterisks
+- ~~Strikethrough~~: Use double tildes
+- `Inline Code`: Use backticks
+
+### Headings Hierarchy
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+### Lists and Nested Elements
+
+1. Ordered List Item 1
+2. Ordered List Item 2
+   - Unordered Sublist
+   - Another Sublist Item
+
+- Unordered List Item
+- Another Unordered Item
+  1. Nested Ordered Sublist
+  2. Another Nested Item
+
+### Blockquotes and Emphasis
+
+> "The art of programming is the art of organizing complexity." - Edsger W. Dijkstra
+> 
+> *A profound insight into software development*
+
+### Links and References
+
+[Visit Jekyll's Official Website](https://jekyllrb.com)
+
+[Reference-style Link][Jekyll Documentation]
+
+[Jekyll Documentation]: https://jekyllrb.com/docs/
+
+### Code Blocks with Syntax Highlighting
+
+{% highlight python linenos %}
+def greet(name):
+    """A simple greeting function"""
+    return f"Hello, {name}! Welcome to the world of markdown."
+
+# This is a comment in Python
+print(greet("Developer"))
+{% endhighlight %}
+
+### Advanced Code Samples
+
+{% for sample in page.code_samples %}
+**{{ sample.language | capitalize }} Example:**
+
+{% if sample.language == 'python' %}
+{% highlight python %}
+{{ sample.code }}
+{% endhighlight %}
+{% elsif sample.language == 'javascript' %}
+{% highlight javascript %}
+{{ sample.code }}
+{% endhighlight %}
+{% endif %}
+{% endfor %}]]></content><author><name>Sarah Wanderlust</name></author><category term="web development" /><category term="writing" /><category term="markdown" /><category term="jekyll" /><category term="formatting" /><category term="tutorial" /><summary type="html"><![CDATA[Explore the full potential of markdown syntax and techniques in Jekyll]]></summary></entry><entry><title type="html">Post with Gallery</title><link href="http://localhost:4000/posts/post-with-gallery" rel="alternate" type="text/html" title="Post with Gallery" /><published>2025-01-10T15:37:13+01:00</published><updated>2025-01-10T15:37:13+01:00</updated><id>http://localhost:4000/posts/post-with-Gallery</id><content type="html" xml:base="http://localhost:4000/posts/post-with-gallery"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+### Gallery of project images
+
+{% include posts/gallery-layout.html images=page.gallery %}
+
+<div class="space40"></div>
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+
+<div class="space20"></div>
+<blockquote class="icon">
+<p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit. Cras mattis consectetur purus.</p>
+<footer class="blockquote-footer">Very important person</footer>
+</blockquote>
+<div class="space20"></div>
+
+#### Risus sociis urna elementum ultricies justo quisque
+
+Mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor.
+
+#### Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget
+
+##### H5 Video Heading 
+{% include utilities/video.html id= page.post_video.video.id  provider= page.post_video.video.provider %}
+<div class="space40"></div>
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium]]></content><author><name>Tortoiz Themes</name></author><category term="couples" /><category term="technology" /><category term="education" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry><entry><title type="html">Simple Post With No Sidebar</title><link href="http://localhost:4000/posts/simple-post-with-no-sidebar" rel="alternate" type="text/html" title="Simple Post With No Sidebar" /><published>2025-01-08T15:37:13+01:00</published><updated>2025-01-08T15:37:13+01:00</updated><id>http://localhost:4000/posts/simple-post-no-sidebar</id><content type="html" xml:base="http://localhost:4000/posts/simple-post-with-no-sidebar"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+
+<div class="space20"></div>
+<blockquote class="icon">
+<p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit. Cras mattis consectetur purus.</p>
+<footer class="blockquote-footer">Very important person</footer>
+</blockquote>
+<div class="space20"></div>
+
+#### Risus sociis urna elementum ultricies justo quisque
+
+Mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor.
+
+#### Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium]]></content><author><name>Tortoiz Themes</name></author><category term="wedding" /><category term="technology" /><category term="education" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry><entry><title type="html">Ultricies fusce porta elit pharetra augue faucibus</title><link href="http://localhost:4000/posts/our-statement" rel="alternate" type="text/html" title="Ultricies fusce porta elit pharetra augue faucibus" /><published>2025-01-07T15:37:13+01:00</published><updated>2025-01-07T15:37:13+01:00</updated><id>http://localhost:4000/posts/engagement-our-statement</id><content type="html" xml:base="http://localhost:4000/posts/our-statement"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+
+<div class="space20"></div>
+<blockquote class="icon">
+<p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit. Cras mattis consectetur purus.</p>
+<footer class="blockquote-footer">Very important person</footer>
+</blockquote>
+<div class="space20"></div>
+
+#### Risus sociis urna elementum ultricies justo quisque
+
+Mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor.
+
+#### Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium]]></content><author><name>Tortoiz Themes</name></author><category term="engagement" /><category term="technology" /><category term="education" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry><entry><title type="html">The Natural Places in Brazil</title><link href="http://localhost:4000/posts/the-natural-places-in-brazil" rel="alternate" type="text/html" title="The Natural Places in Brazil" /><published>2025-01-07T15:37:13+01:00</published><updated>2025-01-07T15:37:13+01:00</updated><id>http://localhost:4000/posts/the-natural-places-in-brazil</id><content type="html" xml:base="http://localhost:4000/posts/the-natural-places-in-brazil"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+
+<div class="space20"></div>
+<blockquote class="icon">
+<p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit. Cras mattis consectetur purus.</p>
+<footer class="blockquote-footer">Very important person</footer>
+</blockquote>
+<div class="space20"></div>
+
+#### Risus sociis urna elementum ultricies justo quisque
+
+Mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor.
+
+#### Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium]]></content><author><name>Tortoiz Themes</name></author><category term="wedding" /><category term="travel" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry><entry><title type="html">Maecenas sed diam eget risus varius blandit sit amet non</title><link href="http://localhost:4000/posts/24-hours-in-the-village-of-belgium" rel="alternate" type="text/html" title="Maecenas sed diam eget risus varius blandit sit amet non" /><published>2025-01-07T09:05:11+01:00</published><updated>2025-01-07T09:05:11+01:00</updated><id>http://localhost:4000/posts/maecenas-sed-diam</id><content type="html" xml:base="http://localhost:4000/posts/24-hours-in-the-village-of-belgium"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+
+<div class="space20"></div>
+<blockquote class="icon">
+<p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit. Cras mattis consectetur purus.</p>
+<footer class="blockquote-footer">Very important person</footer>
+</blockquote>
+<div class="space20"></div>
+
+#### Risus sociis urna elementum ultricies justo quisque
+
+Mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor.
+
+#### Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium]]></content><author><name>Tortoiz Themes</name></author><category term="jekyll" /><category term="jekyll" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry><entry><title type="html">The Biggest Train Station in Europe</title><link href="http://localhost:4000/posts/the-biggest-train-station-in-europe" rel="alternate" type="text/html" title="The Biggest Train Station in Europe" /><published>2025-01-06T15:37:13+01:00</published><updated>2025-01-06T15:37:13+01:00</updated><id>http://localhost:4000/posts/24-the-biggest-train-station-in-europe</id><content type="html" xml:base="http://localhost:4000/posts/the-biggest-train-station-in-europe"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.
+
+Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.
+
+<div class="space20"></div>
+<blockquote class="icon">
+<p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit. Cras mattis consectetur purus.</p>
+<footer class="blockquote-footer">Very important person</footer>
+</blockquote>
+<div class="space20"></div>
+
+#### Risus sociis urna elementum ultricies justo quisque
+
+Mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor.
+
+#### Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget
+
+Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium]]></content><author><name>Tortoiz Themes</name></author><category term="vlog" /><category term="travel" /><summary type="html"><![CDATA[Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.]]></summary></entry></feed>
