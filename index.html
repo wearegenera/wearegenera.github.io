@@ -6,6 +6,12 @@ meta_description: |
   Genera is a relational safety project.
 custom_color: rose
 custom_font: font4
+sections:
+  - home
+  - services
+  - mission
+  - team
+  - contact
 
 slider_area:
   enable: true
@@ -14,7 +20,7 @@ slider_area:
     - title: "Genera"
       sub_title: "<i>The relational safety project<br/><br/></i>A new generation for a new era of relating."
       # image: "/assets/images/folks.jpg"
-      image: "/assets/images/concept/concept21.webp"
+      # image: "/assets/images/concept/concept21.webp"
       bg_image: "/assets/images/concept/bg1.svg"
       # button_text: "? Keep ?"
       # button_url: "#"
@@ -26,7 +32,7 @@ pitch_area:
   sub_title: "The full service we are offering is specifically designed to meet your business needs"
 
 
-three_columns_area:
+services:
   enable: true
   title: "What We Do?"
   sub_title: "The full service we are offering is specifically designed to meet your business needs."
@@ -109,7 +115,7 @@ contact_area:
 
     - title: Phone
       info_01: "+00 (123) 456 78 90"
-      info_02: "+00 (123) 456 78 90"
+      # info_02: "+00 (123) 456 78 90"
       icon: "jam jam-envelope-open"
     # info_01: "Chiara: +31 687381694"
     # info_02: "Eleonora: +39 3896222003"
@@ -144,7 +150,10 @@ contact_area:
 ---
 
 
-{% include layouts/nav/nav-11.html default_logo="black" drop_search=true %}
+{% include layouts/nav/one-page-nav-2.html %}
+
+<section id="home" class="pt-0 mt-0"></section>
+
 {% if page.slider_area.enable %}
 <div class="wrapper white-wrapper">
   <div class="rev_slider_wrapper fullwidth-container dark-spinner dark-nav">
@@ -266,109 +275,116 @@ contact_area:
     </div>
   </div>
 </div>
+</section>
 {% endif %}
 
-{% if page.three_columns_area.enable %}
-<div class="wrapper gray-wrapper">
-  <div class="container inner">
-    <div class="three-columns-wrapper">
-      <div class="row">
-        <div class="col-md-7 mx-auto">
-          <div class="text-center">
-            <h2 class="title-bg bg-default color-default">{{page.three_columns_area.title}}</h2>
+{% if page.services.enable %}
+<section id="services">
+  <div class="wrapper gray-wrapper">
+    <div class="container inner">
+      <div class="three-columns-wrapper">
+        <div class="row">
+          <div class="col-md-7 mx-auto">
+            <div class="text-center">
+              <h2 class="title-bg bg-default color-default">{{page.services.title}}</h2>
+            </div>
+            <!-- <div class="space10"></div> -->
+            <h3 class="display-3 text-center">{{page.services.sub_title}}</h3>
+            <!-- <div class="space30"></div> -->
           </div>
-          <!-- <div class="space10"></div> -->
-          <h3 class="display-3 text-center">{{page.three_columns_area.sub_title}}</h3>
-          <!-- <div class="space30"></div> -->
         </div>
-      </div>
-      <div class="row gutter-60 text-center align-items-end">
-        {% for service in page.three_columns_area.services %}
-        <div class="col-md-4">
-          <figure class="mb-30"><img src="{{service.image}}"  alt="{{service.title}}"/></figure>
-          <h4>{{service.title}}</h4>
-          <p class="mb-15">{{service.description}}</p>
-          <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>
+        <div class="row gutter-60 text-center align-items-end">
+          {% for service in page.services.services %}
+          <div class="col-md-4">
+            <figure class="mb-30"><img src="{{service.image}}"  alt="{{service.title}}"/></figure>
+            <h4>{{service.title}}</h4>
+            <p class="mb-15">{{service.description}}</p>
+            <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>
+          </div>
+          <div class="space20 d-md-none"></div>
+          {% endfor %}
         </div>
-        <div class="space20 d-md-none"></div>
-        {% endfor %}
       </div>
     </div>
   </div>
-</div>
+</section>
 {% endif %}
 
 {% if page.video_area.enable %}
-<div class="wrapper white-wrapper">
-  <div class="container inner">
-    <div class="row align-items-center">
-      <div class="col-lg-6 play-wrapper light-gallery-wrapper text-center">
-        <div class="img-blob blob8">
-        	<img src="{{page.video_area.image}}" style="width: 30rem" alt="{{page.video_area.title}}" />
-        </div>
-        {% if page.video_area.video_url %}
-         <a href="{{page.video_area.video_url}}" class="btn-play lightbox"></a>
-        {% endif %}
-      </div>
-      <!--/column -->
-      <div class="space20 d-md-none"></div>
-      <div class="space50 d-none d-md-block d-lg-none"></div>
-      <div class="col-lg-6 pl-50 pl-md-15">
-      	{% if page.video_area.title %}
-         <h2 class="title-color color-gray">{{page.video_area.title}}</h2>
-        {% endif %}
-        {% if page.video_area.sub_title %}
-         <h3 class="display-3">{{page.video_area.sub_title}}</h3>
-        {% endif %}
-        <div class="space20"></div>
-        <div class="row">
-          {% for list in page.video_area.lists %}
-          <div class="col-md-12">
-            <h5>{{list.title}}</h5>
-            <p>{{list.description}}</p>
+<section id="mission">
+  <div class="wrapper white-wrapper">
+    <div class="container inner">
+      <div class="row align-items-center">
+        <div class="col-lg-6 play-wrapper light-gallery-wrapper text-center">
+          <div class="img-blob blob8">
+              <img src="{{page.video_area.image}}" style="width: 30rem" alt="{{page.video_area.title}}" />
           </div>
-          {% endfor %}
+          {% if page.video_area.video_url %}
+           <a href="{{page.video_area.video_url}}" class="btn-play lightbox"></a>
+          {% endif %}
         </div>
-        <!--/.row -->
+        <!--/column -->
+        <div class="space20 d-md-none"></div>
+        <div class="space50 d-none d-md-block d-lg-none"></div>
+        <div class="col-lg-6 pl-50 pl-md-15">
+          {% if page.video_area.title %}
+           <h2 class="title-color color-gray">{{page.video_area.title}}</h2>
+          {% endif %}
+          {% if page.video_area.sub_title %}
+           <h3 class="display-3">{{page.video_area.sub_title}}</h3>
+          {% endif %}
+          <div class="space20"></div>
+          <div class="row">
+            {% for list in page.video_area.lists %}
+            <div class="col-md-12">
+              <h5>{{list.title}}</h5>
+              <p>{{list.description}}</p>
+            </div>
+            {% endfor %}
+          </div>
+          <!--/.row -->
+        </div>
+        <!--/column -->
       </div>
-      <!--/column -->
+      <!--/.row -->
     </div>
-    <!--/.row -->
+    <!-- /.container -->
   </div>
-  <!-- /.container -->
-</div>
+</section>
 {% endif %}
 <!-- /.wrapper -->
 
 
 {% if page.team.enable %}
-<div class="wrapper gray-wrapper">
-    <div class="container inner">
-        <div class="three-columns-wrapper">
-            <div class="row">
-                <div class="col-md-7 mx-auto">
-                    <div class="text-center">
-                        <h2 class="title-bg bg-default color-default">{{page.team.title}}</h2>
-                    </div>
-                    <div class="space10"></div>
-                    <h3 class="display-3 text-center">{{page.team.sub_title}}</h3>
-                    <div class="space30"></div>
-                </div>
-            </div>
-            <div class="row gutter-60 text-center align-items-end">
-                {% for service in page.team.services %}
-                <div class="col-md-4">
-                    <figure class="mb-30"><img src="{{service.image}}"  alt="{{service.title}}"/></figure>
-                    <h4>{{service.title}}</h4>
-                    <p class="mb-15">{{service.description}}</p>
-                    <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>
-                </div>
-                <div class="space20 d-md-none"></div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
+<section id="team">
+  <div class="wrapper gray-wrapper">
+      <div class="container inner">
+          <div class="three-columns-wrapper">
+              <div class="row">
+                  <div class="col-md-7 mx-auto">
+                      <div class="text-center">
+                          <h2 class="title-bg bg-default color-default">{{page.team.title}}</h2>
+                      </div>
+                      <div class="space10"></div>
+                      <h3 class="display-3 text-center">{{page.team.sub_title}}</h3>
+                      <div class="space30"></div>
+                  </div>
+              </div>
+              <div class="row gutter-60 text-center align-items-end">
+                  {% for service in page.team.services %}
+                  <div class="col-md-4">
+                      <figure class="mb-30"><img src="{{service.image}}"  alt="{{service.title}}"/></figure>
+                      <h4>{{service.title}}</h4>
+                      <p class="mb-15">{{service.description}}</p>
+                      <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>
+                  </div>
+                  <div class="space20 d-md-none"></div>
+                  {% endfor %}
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 {% endif %}
 
 {% if page.contact_area.enable %}

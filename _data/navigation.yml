@@ -135,7 +135,7 @@ main_menu:
         url: "/features/loading"
       - text: "Page Scrolling"
         url: "/features/scroll"
-        
+
   - text: "Pages"
     url: "#"
     menu_type: "dropdown"
