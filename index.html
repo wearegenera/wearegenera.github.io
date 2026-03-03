@@ -13,17 +13,15 @@ sections:
   - team
   - contact
 
-slider_area:
-  enable: true
-  sliders:
 
-    - title: "Genera"
-      sub_title: "<i>The relational safety project<br/><br/></i>A new generation for a new era of relating."
-      # image: "/assets/images/folks.jpg"
-      # image: "/assets/images/concept/concept21.webp"
-      bg_image: "/assets/images/concept/bg1.svg"
-      # button_text: "? Keep ?"
-      # button_url: "#"
+hero_area:
+  enable: true
+  title: "Genera"
+  sub_title: "<i>The relational safety project<br/><br/></i>A new generation for a new era of relating."
+  # button_text: "See My Works"
+  # button_url: "#"
+  image: "/assets/images/concept/bg1.svg"
+  section_id: "home"
 
 
 pitch_area:
@@ -152,112 +150,85 @@ contact_area:
 
 {% include layouts/nav/one-page-nav-2.html %}
 
-<section id="home" class="pt-0 mt-0"></section>
+<!--<section id="home" class="pt-0 mt-0"></section>-->
 
-{% if page.slider_area.enable %}
-<div class="wrapper white-wrapper">
-  <div class="rev_slider_wrapper fullwidth-container dark-spinner dark-nav">
-    <div id="slider16" class="rev_slider fullwidthbanner" data-version="5.4.7">
-      <ul>
-      	{% for slider in page.slider_area.sliders %}
-        <li data-transition="fade" data-thumb="">
-          <img src="/assets/images/dummy.webp" data-bgcolor="#fff" alt="slider"/>
-          {% if slider.bg_image %}
-          <div class="tp-caption" 
-             data-x="['center','center','center','center']" 
-             data-y="['bottom','bottom','bottom','bottom']" 
-             data-hoffset="['0','0','0','0']" 
-             data-voffset="['-2','-2','-2','-2']" 
-             data-frames='[{"delay":0,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
-             data-visibility="['on','on','on','on']" 
-             data-width="none" 
-             data-height="none" 
-             data-type="image" 
-             data-responsive="on" 
-             data-responsive_offset="on" 
-             data-basealign="slide" style="z-index: 5;">
-             <img data-lazyload="" src="{{slider.bg_image}}" data-ww="['100%','100%','100%','100%']" 
-             data-hh="['auto','auto','auto','auto']" alt="{{slider.title}}" />  
-        </div>
-	      <!-- /.tp-caption -->
-	      {% endif %}
-	      {% if slider.image %}
-          <div class="tp-caption" 
-             data-x="left" 
-             data-y="middle" 
-             data-hoffset="['650','550','390','420']" 
-             data-voffset="20" 
-             data-frames='[{"delay":500,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
-             data-visibility="['on','on','on','off']" 
-             data-width="none" 
-             data-height="none" 
-             data-type="image" 
-             data-responsive_offset="on" 
-             data-basealign="grid" style="z-index: 5;"><img 
-             data-lazyload="" src="{{slider.image}}" 
-             data-ww="400" 
-             data-hh="auto" alt="" />  
-          </div>
-	      <!-- /.tp-caption -->
-	      {% endif %}
-	      {% if slider.title %}
-          <div class="tp-caption font-weight-600 color-dark" 
-             data-x="['left','left','left','left']" 
-             data-y="middle" 
-             data-hoffset="['50','70','30','30']" 
-             data-voffset="['-105','-105','-145','-115']" 
-             data-fontsize="['40','40','36','36']" 
-             data-lineheight="['52','52','46','46']" 
-             data-width="['450','450','340','340']" 
-             data-textAlign="['left','left','left','left']" 
-             data-whitespace="['normal','normal','normal','normal']" 
-             data-frames='[{"delay":1000,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
-             data-responsive="on" 
-             data-responsive_offset="on" style="z-index: 9;"> {{slider.title}}
-        </div>
-	     <!-- /.tp-caption -->
-	     {% endif %}
-	     {% if slider.sub_title %}
-          <div class="tp-caption font-weight-400 color-dark" 
-             data-x="['left','left','left','left']" 
-             data-y="middle" 
-             data-hoffset="['50','70','30','30']" 
-             data-voffset="[0','0','0','30']" 
-             data-fontsize="['26','26','24','24']" 
-             data-lineheight="['36','36','34','34']" 
-             data-width="['450','450','340','340']" 
-             data-textAlign="['left','left','left','left']" 
-             data-whitespace="['normal','normal','normal','normal']" 
-             data-frames='[{"delay":1500,"speed":1200,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
-             data-responsive="on" 
-             data-responsive_offset="on" style="z-index: 9;"> {{slider.sub_title}} 
-        </div>
-	     <!-- /.tp-caption -->
-	     {% endif %}
-	     {% if slider.button_text %}
-          <a class="tp-caption btn btn-l btn-default" 
-             data-x="['left','left','left','left']" 
-             data-y="middle" 
-             data-hoffset="['50','70','30','30']" 
-             data-voffset="['95','95','115','145']" 
-             data-width="['auto','auto','auto','auto']" 
-             data-textAlign="['left','left','left','left']" 
-             data-frames='[{"delay":2000,"speed":1200,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' 
-             data-responsive="on" 
-             data-responsive_offset="on" style="z-index: 9;" href="{{slider.button_url}}"> {{slider.button_text}}
-        </a>
-	    <!-- /.tp-caption -->
-	    {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-      <div class="tp-bannertimer tp-bottom"></div>
+{% if page.hero_area.enable %}
+<section id="{{page.hero_area.section_id}}">
+  <div class="wrapper white-wrapper">
+    <div class="rev_slider_wrapper fullwidth-container dark-spinner">
+      <div id="slider6" class="rev_slider fullwidthbanner" data-version="5.4.7">
+        <ul>
+          <li data-transition="fade" data-thumb="">
+            <img src="/assets/images/dummy.webp" data-bgcolor="#fff" alt="{{page.hero_area.title}}"/>
+            {% if page.hero_area.image %}
+            <div class="tp-caption"
+                 data-x="['center','center','center','center']"
+                 data-y="['bottom','bottom','bottom','bottom']"
+                 data-hoffset="['0','0','0','0']"
+                 data-voffset="['-2','-2','-2','-2']"
+                 data-frames='[{"delay":0,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                 data-visibility="['on','on','on','on']"
+                 data-width="none"
+                 data-height="none"
+                 data-type="image"
+                 data-responsive="on"
+                 data-responsive_offset="on"
+                 data-basealign="slide" style="z-index: 5;">
+              <img data-lazyload="" src="/assets/images/concept/bg1.svg" data-ww="['100%','100%','100%','100%']"
+                   data-hh="['auto','auto','auto','auto']" alt="{{page.hero_area.title}}" />
+            </div>
+            {% endif %}
+            <div class="tp-caption font-weight-600 color-dark"
+                 data-x="['left','left','center','center']"
+                 data-y="['middle','middle','bottom','bottom']"
+                 data-hoffset="['50','30','0','0']"
+                 data-voffset="['-100','-120','280','280']"
+                 data-fontsize="['40','40','40','32']"
+                 data-lineheight="['50','50','50','42']"
+                 data-width="['460','380','650','340']"
+                 data-textAlign="['left','left','center','center']"
+                 data-whitespace="['normal','normal','normal','normal']"
+                 data-frames='[{"delay":1100,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                 data-responsive="on"
+                 data-responsive_offset="on" style="z-index: 9;"> {{page.hero_area.title}}
+            </div>
+            <!-- /.tp-caption -->
+            <div class="tp-caption font-weight-400 color-dark"
+                 data-x="['left','left','center','center']"
+                 data-y="['middle','middle','bottom','bottom']"
+                 data-hoffset="['50','30','0','0']"
+                 data-voffset="['30','30','150','140']"
+                 data-fontsize="['26','26','26','20']"
+                 data-lineheight="['38','38','38','32']"
+                 data-width="['460','380','650','340']"
+                 data-textAlign="['left','left','center','center']"
+                 data-whitespace="['normal','normal','normal','normal']"
+                 data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                 data-responsive="on"
+                 data-responsive_offset="on" style="z-index: 9;"> {{page.hero_area.sub_title}}
+            </div>
+            <!-- /.tp-caption -->
+<!--            <a class="tp-caption btn btn-l scroll"-->
+<!--               data-x="['left','left','center','center']"-->
+<!--               data-y="['middle','middle','bottom','bottom']"-->
+<!--               data-hoffset="['50','30','0','0']"-->
+<!--               data-voffset="['175','190','60','60']"-->
+<!--               data-width="['auto','auto','auto','auto']"-->
+<!--               data-frames='[{"delay":1900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'-->
+<!--               data-responsive="on"-->
+<!--               data-responsive_offset="on" style="z-index: 9;" href="{{page.hero_area.button_url}}"> {{page.hero_area.button_text}}-->
+<!--            </a>-->
+            <!-- /.tp-caption -->
+          </li>
+        </ul>
+        <div class="tp-bannertimer tp-bottom"></div>
+      </div>
+      <!-- /.rev_slider -->
     </div>
-    <!-- /.rev_slider -->
+    <!-- /.rev_slider_wrapper -->
   </div>
-  <!-- /.rev_slider_wrapper -->
-</div>
-<!-- /.wrapper -->
+  <!-- /.wrapper -->
+</section>
 {% endif %}
 
 {% if page.pitch_area.enable %}
