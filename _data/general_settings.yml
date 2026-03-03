@@ -23,7 +23,7 @@ light_logo_1x: "/assets/images/logo-light.webp"
 light_logo_2x: "/assets/images/logo-light@2x.webp"
 
 # Site Wide Address and Phone Number
-address_01: 'Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom'
+address_01: 'Amsterdam<br />The Netherlands'
 phone_number: "+00 (123) 456 78 90"
 
 # Site Wide Copyright
@@ -43,17 +43,8 @@ social_accounts:
   title: "Follow Us"
   links:
     - url: "#"
-      icon: "jam jam-twitter"
+      icon: "jam jam-linkedin"
 
-    - url: "#"
-      icon: "jam jam-facebook"
-
-    - url: "#"
-      icon: "jam jam-instagram"
-
-    - url: "#"
-      icon: "jam jam-vimeo"
-      
     - url: "#"
       icon: "jam jam-youtube"
 
