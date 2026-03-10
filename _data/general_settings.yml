@@ -46,6 +46,9 @@ social_accounts:
       icon: "jam jam-linkedin"
 
     - url: "#"
+      icon: "jam jam-instagram"
+
+    - url: "#"
       icon: "jam jam-youtube"
 
 # Site Wide External Links for footer
