@@ -17,10 +17,10 @@ color_scheme:  #Aqua Blue Brown Cobalt Green Hibiscus Leaf Meander Orange Pink P
 font_scheme:  # Jost, Nunito , DM Sans + Zilla Slab , HK Grotesk, Abhaya, Libre
 
 # Sitewide Logo
-black_logo_1x: "/assets/images/genera@2x.webp"
-black_logo_2x: "/assets/images/genera@2x.webp"
-light_logo_1x: "/assets/images/genera@2x.webp"
-light_logo_2x: "/assets/images/genera@2x.webp"
+black_logo_1x: "/assets/images/genera-logo-text.png"
+black_logo_2x: "/assets/images/genera-logo-text.png"
+light_logo_1x: "/assets/images/genera-logo-text.png"
+light_logo_2x: "/assets/images/genera-logo-text.png"
 
 # Site Wide Address and Phone Number
 address_01: 'Amsterdam<br />The Netherlands'
