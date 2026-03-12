@@ -2,7 +2,7 @@
 title: "Genera - The relational safety project"
 email: "wearegenera@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Genera - The relational safety project. We empower teenagers to build healthy relationships through sexual education, 
+  Genera - The Relational Safety Project. We empower teenagers to build healthy relationships through sexual education, 
   relational intelligence, and equality. Because gender equality starts with education.
 favicon: "/assets/images/favicon.webp"
 
@@ -42,14 +42,11 @@ google_map: |
 social_accounts:
   title: "Follow Us"
   links:
-    - url: "#"
+    - url: "https://www.linkedin.com/company/genera-the-relational-safety-project/"
       icon: "jam jam-linkedin"
 
-    - url: "#"
+    - url: "https://www.instagram.com/wearegenera_/"
       icon: "jam jam-instagram"
-
-    - url: "#"
-      icon: "jam jam-youtube"
 
 # Site Wide External Links for footer
 external_links:

@@ -10,7 +10,7 @@ sections:
   - home
   - how-it-works
   - what-we-do
-  - team
+  - who-we-are
   - contact
 
 
@@ -32,7 +32,7 @@ pitch_area:
 
 how_it_works:
   enable: true
-  title: "How It Works?"
+  title: "How It Works"
   sub_title: "A new generation for a new era of relating"
   # video_url: "https://www.youtube.com/watch?v=26TbMXXOe0I"
   video_url: "https://www.youtube.com/embed/kS6P6z7e_yE"
@@ -42,59 +42,65 @@ how_it_works:
 
     - title: "Mission"
       description: "We equip teenagers with the tools to build healthy relationships in a digital and interconnected Europe. Through international experiences and interactive workshops, we create safe spaces where young people learn about sexuality, relational intelligence and equality, to prevent sexual, gender-based and cyber violence."
+      title_class: "genera-orange"
 
     - title: "Vision"
       description: "We envision a Europe where relational and sexual learning is valued as essential as academic education. Because the next generation deserves more than silence, confusion, or algorithms teaching them about relationships. They deserve education, dialogue, and better role models."
+      title_class: "genera-dark-turquoise"
 
     - title: "Values"
       description: "Curiosity | Inclusivity | Safety | Empathy | Non-violent communication"
+      title_class: "genera-magenta"
 
 
 what_we_do:
   enable: true
-  title: "What We Do?"
+  title: "What We Do"
   sub_title: "Genera offers different services tailored to your needs:"
   services:
 
-    - title: "Immersive training"
+    - title: "Immersive trainings"
       description: "Five days of training on sexual education, relational intelligence, and gender rights for teenagers."
       image: "/assets/images/teamwork.png"
       button_text: "Learn More"
       button_url: "#"
+      title_class: "genera-orange"
 
     - title: "Tailor-made workshops"
-      description: "3-hour workshops on a specific topic, e.g. <i>Navigate digital spaces safely</i>, <i>Desire and consensual sex</i>, <i>Prevention of SGBV violence</i>."
+      description: "3-hour workshops on a specific topic, e.g. <i>Navigate digital spaces safely</i>, <i>Desire and consensual sex</i>, <i>Prevention of SGBV</i>."
       image: "/assets/images/global-marketing.png"
       button_text: "Learn More"
       button_url: "#"
+      title_class: "genera-dark-turquoise"
 
     - title: "Podcast to amplify youth voices"
       description: "We respond to teenagers' questions in a safe and confidential way."
       image: "/assets/images/podcast.png"
       button_text: "Learn More"
       button_url: "#"
-      
+      title_class: "genera-magenta"
 
-team:
+
+who_we_are:
   enable: true
-  title: "Who we are?"
+  title: "Who we are"
   sub_title: "Meet our fantastic team."
   services:
 
     - title: "Chiara Ferri"
-      description: "<b style=\"font-size: 18px\">Relationship and Sexuality expert</b><br><br>Chiara is a somatic sex coach and embodiment mentor with an additional 12 years of expertise in wellbeing and HR. In 2022, she founded IntimaSee Coaching Lab, and since then has facilitated 1-1 sessions, workshops, retreats, and festivals worldwide focused on sexuality, relationships, and vulnerability. To date, she has supported 200+ individuals and couples. She brings her deep knowledge of human sexuality, empathetic listening, and relationally grounded facilitation skills to Genera."
+      description: "<b class=\"genera-orange\" style=\"font-size: 18px\">Relationship and Sexuality expert</b><br><br>Chiara is a somatic sex coach and embodiment mentor with an additional 12 years of expertise in wellbeing and HR. In 2022, she founded IntimaSee Coaching Lab, and since then has facilitated 1-1 sessions, workshops, retreats, and festivals worldwide focused on sexuality, relationships, and vulnerability. To date, she has supported 200+ individuals and couples. She brings her deep knowledge of human sexuality, empathetic listening, and relationally grounded facilitation skills to Genera."
       image: "/assets/images/chiara.jpg"
       button_text: "LinkedIn"
       button_url: "https://linkedin.com/in/chiara-ferri-22374bb9"
 
     - title: "Eleonora Ungaro"
-      description: "<b style=\"font-size: 18px\">Human rights and Advocacy expert</b><br><br>Eleonora is a human rights and advocacy expert with nine years of international experience in the social change sector. She is a strong advocate for the most vulnerable and actively challenges power structures. She has worked with more than 60 teenagers as Project Coordinator of an EU-funded project. She brings her deep knowledge of socio-political issues, analytical mindset, and strong advocacy skills to Genera."
+      description: "<b class=\"genera-dark-turquoise\" style=\"font-size: 18px\">Human rights and Advocacy expert</b><br><br>Eleonora is a human rights and advocacy expert with nine years of international experience in the social change sector. She is a strong advocate for the most vulnerable and actively challenges power structures. She has worked with more than 60 teenagers as Project Coordinator of an EU-funded project. She brings her deep knowledge of socio-political issues, analytical mindset, and strong advocacy skills to Genera."
       image: "/assets/images/eleonora.jpg"
       button_text: "LinkedIn"
       button_url: "https://linkedin.com/in/eleonora-ungaro-340aa394"
 
     - title: "Emma Zamberlan"
-      description: "<b style=\"font-size: 18px\">Strategic Project Manager</b><br><br>Emma is a project manager with years of experience coordinating projects and turning ideas into structured, impactful initiatives. She combines strong organisational skills with a collaborative and strategic approach to project development. She has long cultivated a strong passion for gender studies and intersectional education. She brings a strong focus on structure and coordination, transforming ideas into clear processes, sustainable strategies, and well-executed initiatives."
+      description: "<b class=\"genera-magenta\" style=\"font-size: 18px\">Strategic Project Manager</b><br><br>Emma is a project manager with years of experience coordinating projects and turning ideas into structured, impactful initiatives. She combines strong organisational skills with a collaborative and strategic approach to project development. She has long cultivated a strong passion for gender studies and intersectional education. She brings a strong focus on structure and coordination, transforming ideas into clear processes, sustainable strategies, and well-executed initiatives."
       image: "/assets/images/emma.jpg"
       button_text: "LinkedIn"
       button_url: "https://linkedin.com/in/emma-zamberlan-0944b9a2"
@@ -102,7 +108,7 @@ team:
 contact_area:
   enable: true
   title: "Get in Touch"
-  sub_title: "Have any questions?<br/>Reach out to us and we will get back to you shortly."
+  sub_title: "Reach out to us and we will get back to you shortly."
   action_email: "wearegenera@gmail.com"
   lists:
     - title: Based in
@@ -282,19 +288,12 @@ contact_area:
         <div class="col-lg-6 pl-50 pl-md-15">
 <!--          <div class="space20"></div>-->
           <div class="row">
+            {% for item in page.how_it_works.lists %}
             <div class="col-md-12">
-              <h5 class="genera-dark-turquoise">Mission</h5>
-              <p class="how-it-works-font">We equip teenagers with the tools to build healthy relationships in a digital and interconnected Europe. Through international experiences and interactive workshops, we create safe spaces where young people learn about sexuality, relational intelligence and equality, to prevent sexual, gender-based and cyber violence.</p>
+              <h5 class="{{item.title_class}}">{{item.title}}</h5>
+              <p class="how-it-works-font">{{item.description}}</p>
             </div>
-            <div class="col-md-12">
-              <h5 class="genera-magenta">Vision</h5>
-              <p class="how-it-works-font">We envision a Europe where relational and sexual learning is valued as essential as academic education. Because the next generation deserves more than silence, confusion, or algorithms teaching them about relationships. They deserve education, dialogue, and better role models.</p>
-            </div>
-            <div class="col-md-12">
-              <h5 class="genera-orange">Values</h5>
-              <p class="how-it-works-font">Curiosity | Inclusivity | Safety | Empathy | Non-violent communication</p>
-            </div>
-          </div>
+            {% endfor %}
           <!--/.row -->
         </div>
         <!--/column -->
@@ -327,7 +326,7 @@ contact_area:
           {% for service in page.what_we_do.services %}
           <div class="col-md-4">
             <figure class="mb-30"><img src="{{service.image}}" class="what-we-do-figure" alt="{{service.title}}"/></figure>
-            <h4>{{service.title}}</h4>
+            <h4 class="{{service.title_class}}">{{service.title}}</h4>
             <p class="mb-15">{{service.description}}</p>
             <!--            <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>-->
           </div>
@@ -341,24 +340,24 @@ contact_area:
 {% endif %}
 
 
-{% if page.team.enable %}
-<section id="team">
+{% if page.who_we_are.enable %}
+<section id="who-we-are">
   <div class="wrapper gray-wrapper">
       <div class="container inner">
           <div class="three-columns-wrapper">
               <div class="row">
                   <div class="col-md-7 mx-auto">
                       <div class="text-center">
-                          <h1 class="title-bg bg-default color-default large-title">{{page.team.title}}</h1>
+                          <h1 class="title-bg bg-default color-default large-title">{{page.who_we_are.title}}</h1>
                         <div class="space20 d-none d-md-block"></div>
                       </div>
 <!--                      <div class="space10"></div>-->
-<!--                      <h3 class="display-3 text-center">{{page.team.sub_title}}</h3>-->
+<!--                      <h3 class="display-3 text-center">{{page.who_we_are.sub_title}}</h3>-->
 <!--                      <div class="space30"></div>-->
                   </div>
               </div>
               <div class="row gutter-60 text-center align-items-top">
-                  {% for service in page.team.services %}
+                  {% for service in page.who_we_are.services %}
                   <div class="col-md-4">
                       <figure class="mb-30"><img src="{{service.image}}"  alt="{{service.title}}"/></figure>
                       <h4>{{service.title}}</h4>
