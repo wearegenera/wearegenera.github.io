@@ -262,6 +262,7 @@ contact_area:
         <div class="col-md-7 mx-auto">
           <div class="text-center">
             <h1 class="title-bg bg-default color-default large-title">{{page.how_it_works.title}}</h1>
+            <div class="space20 d-none d-md-block"></div>
           </div>
           {% if page.how_it_works.sub_title %}
           <h3 class="display-3 subtitle-font">{{page.how_it_works.sub_title}}</h3>
@@ -315,19 +316,20 @@ contact_area:
           <div class="col-md-7 mx-auto">
             <div class="text-center">
               <h1 class="title-bg bg-default color-default large-title">{{page.what_we_do.title}}</h1>
+              <div class="space20 d-none d-md-block"></div>
             </div>
             <!-- <div class="space10"></div> -->
 <!--            <h3 class="display-3 text-center">{{page.what_we_do.sub_title}}</h3>-->
             <!-- <div class="space30"></div> -->
           </div>
         </div>
-        <div class="row gutter-60 text-center align-items-end">
+        <div class="row gutter-60 text-center align-items-top">
           {% for service in page.what_we_do.services %}
           <div class="col-md-4">
             <figure class="mb-30"><img src="{{service.image}}" class="what-we-do-figure" alt="{{service.title}}"/></figure>
             <h4>{{service.title}}</h4>
             <p class="mb-15">{{service.description}}</p>
-<!--            <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>-->
+            <!--            <div class="text-center"><a href="{{service.button_url}}" class="more">{{service.button_text}}</a></div>-->
           </div>
           <div class="space20 d-md-none"></div>
           {% endfor %}
@@ -348,13 +350,14 @@ contact_area:
                   <div class="col-md-7 mx-auto">
                       <div class="text-center">
                           <h1 class="title-bg bg-default color-default large-title">{{page.team.title}}</h1>
+                        <div class="space20 d-none d-md-block"></div>
                       </div>
 <!--                      <div class="space10"></div>-->
 <!--                      <h3 class="display-3 text-center">{{page.team.sub_title}}</h3>-->
 <!--                      <div class="space30"></div>-->
                   </div>
               </div>
-              <div class="row gutter-60 text-center align-items-end">
+              <div class="row gutter-60 text-center align-items-top">
                   {% for service in page.team.services %}
                   <div class="col-md-4">
                       <figure class="mb-30"><img src="{{service.image}}"  alt="{{service.title}}"/></figure>
@@ -378,6 +381,7 @@ contact_area:
       {% if page.contact_area.title %}
       <div class="text-center">
         <h1 class="title-bg bg-default color-default large-title">{{page.contact_area.title}}</h1>
+        <div class="space20 d-none d-md-block"></div>
       </div>
       {% endif %}
       <div class="row">
